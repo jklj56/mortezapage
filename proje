@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      background-image: url('uuu.jpeg');
+    }
+    </style>
+  <meta charset="UTF-20">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 30px solid rgb(241, 11, 11);
+      border-radius: 5px;
+      background-color: #00e1ff;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 4px solid rgb(247, 193, 16);
+      border-radius: 80px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #2f04ee;
+      color: rgb(255, 255, 255);
+      padding: 20px 5px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Login</h2>
+    <label for="username"><i>Username</i></label>
+    <input type="text" id="username" name="username" placeholder="Enter your username">
+    <label for="password"><i>Password</i></label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+    <button type="submit"><b>Login</b></button>
+    created by  <i><b>Morteza Sadeghi</b></i>
+  </form>
+</body>
+</html>
